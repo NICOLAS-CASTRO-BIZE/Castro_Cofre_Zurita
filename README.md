@@ -1,5 +1,3 @@
-Ejecutar #main_app.py# para correr pipeline de RAG completo
-
 ALUMNOS:
 
 Nicolás Oscar Castro Bize
@@ -7,6 +5,9 @@ Nicolás Oscar Castro Bize
 Carlos Alberto Zurita Olea
 
 María Ignacia Cofré Poblete
+
+## Instruccion 
+Ejecutar #main_app.py# para correr pipeline de RAG completo, este llama a las funciones de cada modulo en carpetas src
 
 
 Building an End-to-End Retrieval-Augmented Generation System
