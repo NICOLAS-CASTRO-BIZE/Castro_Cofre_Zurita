@@ -1,7 +1,9 @@
 ALUMNOS:
 
 Nicolás Oscar Castro Bize
+
 Carlos Alberto Zurita Olea
+
 María Ignacia Cofré Poblete
 
 
