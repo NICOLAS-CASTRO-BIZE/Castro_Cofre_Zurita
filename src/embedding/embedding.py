@@ -24,5 +24,9 @@ def generate_embeddings(chunks: list, model_name: str = "sentence-transformers/a
 
     # Generar embeddings para los textos
     embeddings = embedding_model.embed_documents(texts)
+
+    ######### NUEVA      Verificar las dimensiones del embedding
+    sample_embedding = embedding_model.embed_query("texto de prueba")
+    print(f"Dimensiones del embedding: {len(sample_embedding)}")
     
     return embeddings, embedding_model
