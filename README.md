@@ -1,3 +1,10 @@
+ALUMNOS:
+
+Nicolás Oscar Castro Bize
+Carlos Alberto Zurita Olea
+María Ignacia Cofré Poblete
+
+
 # Building an End-to-End Retrieval-Augmented Generation System
 
 Welcome to the **Building an End-to-End Retrieval-Augmented Generation System** repository. This repository is designed to guide you through the process of creating a complete Retrieval-Augmented Generation (RAG) system from scratch, following a structured curriculum.
