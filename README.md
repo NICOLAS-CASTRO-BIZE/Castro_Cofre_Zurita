@@ -1,4 +1,6 @@
-ALUMNOS:
+## Readme: Pipeline RAG, entrega 1
+
+Alumnos:
 
 Nicolás Oscar Castro Bize
 
@@ -6,10 +8,28 @@ Carlos Alberto Zurita Olea
 
 María Ignacia Cofré Poblete
 
-## Instruccion 
-Ejecutar #main_app.py# para correr pipeline de RAG completo, este llama a las funciones de cada modulo en carpetas src
+## Instrucciones de esta entrega
+*** Se avanzó en tener una estructura desde un main_app que llamará las funciones de load, chunk, embedding, vector qdrant desde la carpeta src. Para esto:
 
+1) Instalar requirements.txt con las librerias utilizadas
+2) Guardar o asegurar tener archivo biblioteca_de_alimentos.pdf disponible en data/biblioteca-de-alimentos.pdf
+3) Además de las carpetas clasicas de RAG, el proyecto contiene una carpeta carpeta "extras" en el directorio src/extras que contiene funciones de formato para que el retrieval sea más limpio de warnings. Asegurarse de haber descargado ese directorio.
+4) Ejecutar main_app.py para correr pipeline de RAG completo
+5) Privilegiar el uso del portugues en caso de querer modificar la query a consultar, ejemplos:  "Quais são as normas para lactantes no Brasil?", "O que fala acerca do rotulagem?"
 
+# Resultado esperado
+En la ejecución este pipeline recibe una pregunta relacionada como: "Quais são as normas para lactantes no Brasil?", al ejecutar main_app.py el resultado es de la forma:
+
+Result 1:
+page_content='Lei 11.265/2006 – Regulamenta a comercialização de alimentos para lactentes e crianças de primeira infância 
+e a de produtos de puericultura correlatos. 
+ Alterada por: 
+Lei 11.474/2007  – Altera a Lei no 10.188, de 12 de fevereiro de 2001, que cria o Programa de 
+Arrendamento Residencial, institui o arrendamento residencial com opção de compra, e a Lei no 
+11.265, de 3 de janeiro de 2006, que regulamenta a comercialização de alimentos para lactentes e 
+crianças de primeira infância e a de produtos de puericultura correlatos, e dá outras providências. 
+
+***Readme anterior*******
 Building an End-to-End Retrieval-Augmented Generation System
 
 Welcome to the **Building an End-to-End Retrieval-Augmented Generation System** repository. This repository is designed to guide you through the process of creating a complete Retrieval-Augmented Generation (RAG) system from scratch, following a structured curriculum.
