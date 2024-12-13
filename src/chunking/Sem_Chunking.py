@@ -1,19 +1,7 @@
 from transformers import AutoTokenizer, AutoModel
 import torch
 from sklearn.metrics.pairwise import cosine_similarity
-
-
-
-#### PRECARGA DE DOCUMENTO ######
-
-
-# Cargar documentos
-    file_path = "data/biblioteca-de-alimentos.pdf"
-    #"Castro_Cofre_Zurita/data/biblioteca-de-alimentos.pdf"
-    documents = load_pdf(file_path)
-
-
-
+from langchain_community.document_loaders import PyPDFLoader
 
 
 # Modelo gratuito de Hugging Face
@@ -21,10 +9,33 @@ tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-MiniLM-L6-v
 model = AutoModel.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
 
 # Texto a fragmentar
-text = """La inteligencia artificial está transformando industrias. 
-Las redes neuronales profundas son una tecnología clave en este cambio. 
-El procesamiento de lenguaje natural permite que las máquinas entiendan texto. 
-El aprendizaje automático mejora con grandes cantidades de datos."""
+
+# Leer texto del PDF
+
+
+def load_pdf(file_path: str):
+    """
+    Carga un archivo PDF y devuelve su contenido como documentos procesados.
+
+    Args:
+        file_path: Ruta al archivo PDF a cargar.
+
+    Returns:
+        docs: Lista de documentos procesados extraídos del PDF.
+    """
+    loader = PyPDFLoader(file_path)
+    docs = loader.load()
+    return docs
+
+
+file_path = "data/biblioteca-de-alimentos.pdf"  # Cambia esto por la ruta a tu archivo PDF
+text = load_pdf(file_path)
+
+
+#text = """La inteligencia artificial está transformando industrias. 
+#Las redes neuronales profundas son una tecnología clave en este cambio. 
+#El procesamiento de lenguaje natural permite que las máquinas entiendan texto. 
+#El aprendizaje automático mejora con grandes cantidades de datos."""
 
 # Fragmentar por oraciones
 sentences = text.split(". ")
@@ -56,3 +67,6 @@ for i, sentence in enumerate(sentences):
         grouped_chunks.append(" ".join(group))
 
 print(grouped_chunks)
+
+
+

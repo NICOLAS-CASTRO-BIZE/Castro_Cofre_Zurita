@@ -6,6 +6,7 @@
 
 from src.loaders.load import load_pdf
 from src.chunking.chunk import generate_chunks
+from src.chunking.semantic_chunk import generate_semantic_chunk
 from src.embedding.embedding import generate_embeddings
 from src.vector_store_client.qdrant import create_qdrant_vector_store
 from src.retrievers.retrieve import retrieve_documents
@@ -32,8 +33,8 @@ def main():
 
     # Dividir en chunks
     output_folder = "..data/chunks/"
-    chunks = generate_chunks(documents)
-
+    #chunks = generate_chunks(documents)
+    chunks = generate_semantic_chunk(documents, chunk_size=210,chunk_overlap=0)
     # Generar embeddings y obtener el modelo de embeddings
     with SuppressOutput():
         embeddings, embedding_model = generate_embeddings(chunks)

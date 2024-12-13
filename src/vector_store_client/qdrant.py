@@ -8,7 +8,7 @@ from qdrant_client.http.models import Distance, VectorParams
 # Cargar las variables de entorno
 load_dotenv()
 
-def create_qdrant_vector_store(docs: list, embedding_model, collection_name: str = "demo_collection", path: str = "/tmp/langchain_qdrant", vector_size: int = 384) -> QdrantVectorStore:
+def create_qdrant_vector_store(docs: list, embedding_model, vector_size: int = 384, collection_name: str = "demo_collection", path: str = "/tmp/langchain_qdrant") -> QdrantVectorStore:
     """
     Crea una base de datos vectorial en Qdrant y almacena documentos con sus embeddings.
 
