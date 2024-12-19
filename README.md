@@ -91,3 +91,6 @@ This repository contains the materials and code needed to build a complete Retri
 - **Resources:**
   - The five levels of chunking
   - A guide to chunking
+## Arquitectura del rag
+
+<img width="772" alt="image" src="https://github.com/user-attachments/assets/f325bb5d-c37a-410b-a545-6111c6536ae7" />
