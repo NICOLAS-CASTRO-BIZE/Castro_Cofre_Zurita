@@ -1,4 +1,57 @@
-# Building an End-to-End Retrieval-Augmented Generation System
+## Readme: Pipeline RAG, equipo legislación de Brasil
+
+Alumnos:
+
+Nicolás Oscar Castro Bize
+Carlos Alberto Zurita Olea
+María Ignacia Cofré Poblete
+
+## Setup Instructions
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/CarlosCaris/practicos-rag.git
+2. Create a virtual environment
+    ```bash
+    python -m vevn .venv
+3. Activate the environment
+   ```bash
+    # On Mac
+    .venv/bin/activate
+    # On Windows
+    .venv\Scripts\activate
+4. Install requirements
+    ```bash
+    pip install -r requirements.txt
+
+## Arquitectura de la solución RAG implementada
+
+<img width="772" alt="image" src="https://github.com/user-attachments/assets/f325bb5d-c37a-410b-a545-6111c6536ae7" />
+
+# Consideraciones
+
+1) Descargar  o clonar repositorio desde el main
+2) Instalar requirements.txt con las librerias utilizadas
+3) Guardar o asegurar tener archivo biblioteca_de_alimentos.pdf disponible en data/biblioteca-de-alimentos.pdf
+4) Ejecutar main_app.py para correr pipeline de RAG completo
+5) Para correr aplicación streamlit ejecutar en consola la sentencia: streamlit run main_app_v3_hybrid.py
+6) En la app se pueden realizar preguntas acerca de la legislación de alimentos en idiomas español, inglés o portugues
+
+
+# Resultado esperado
+En la ejecución este pipeline recibe una pregunta relacionada como: "Quais são as normas para lactantes no Brasil?", al ejecutar main_app.py el resultado es de la forma:
+
+Result 1:
+page_content='Lei 11.265/2006 – Regulamenta a comercialização de alimentos para lactentes e crianças de primeira infância 
+e a de produtos de puericultura correlatos. 
+ Alterada por: 
+Lei 11.474/2007  – Altera a Lei no 10.188, de 12 de fevereiro de 2001, que cria o Programa de 
+Arrendamento Residencial, institui o arrendamento residencial com opção de compra, e a Lei no 
+11.265, de 3 de janeiro de 2006, que regulamenta a comercialização de alimentos para lactentes e 
+crianças de primeira infância e a de produtos de puericultura correlatos, e dá outras providências. 
+
+***Readme anterior*******
+Building an End-to-End Retrieval-Augmented Generation System
 
 Welcome to the **Building an End-to-End Retrieval-Augmented Generation System** repository. This repository is designed to guide you through the process of creating a complete Retrieval-Augmented Generation (RAG) system from scratch, following a structured curriculum.
 
@@ -58,3 +111,4 @@ This repository contains the materials and code needed to build a complete Retri
 - **Resources:**
   - The five levels of chunking
   - A guide to chunking
+
