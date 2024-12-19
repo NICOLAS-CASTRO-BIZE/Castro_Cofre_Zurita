@@ -3,20 +3,41 @@
 Alumnos:
 
 Nicolás Oscar Castro Bize
-
 Carlos Alberto Zurita Olea
-
 María Ignacia Cofré Poblete
 
 ## Instrucciones de esta entrega
 *** Se avanzó en tener una estructura desde un main_app que llamará las funciones de load, chunk, embedding, vector qdrant desde la carpeta src. Para esto:
 
-1) Descargar repositorio desde el main
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/CarlosCaris/practicos-rag.git
+2. Create a virtual environment
+    ```bash
+    python -m vevn .venv
+3. Activate the environment
+   ```bash
+    # On Mac
+    .venv/bin/activate
+    # On Windows
+    .venv\Scripts\activate
+4. Install requirements
+    ```bash
+    pip install -r requirements.txt
+
+## Arquitectura de la solución RAG implementada
+
+<img width="772" alt="image" src="https://github.com/user-attachments/assets/f325bb5d-c37a-410b-a545-6111c6536ae7" />
+
+# Consideraciones
+
+1) Descargar  o clonar repositorio desde el main
 2) Instalar requirements.txt con las librerias utilizadas
 3) Guardar o asegurar tener archivo biblioteca_de_alimentos.pdf disponible en data/biblioteca-de-alimentos.pdf
 4) Ejecutar main_app.py para correr pipeline de RAG completo
 5) Para correr aplicación streamlit ejecutar en consola la sentencia: streamlit run main_app_v3_hybrid.py
 6) En la app se pueden realizar preguntas acerca de la legislación de alimentos en idiomas español, inglés o portugues
+
 
 # Resultado esperado
 En la ejecución este pipeline recibe una pregunta relacionada como: "Quais são as normas para lactantes no Brasil?", al ejecutar main_app.py el resultado es de la forma:
@@ -91,6 +112,4 @@ This repository contains the materials and code needed to build a complete Retri
 - **Resources:**
   - The five levels of chunking
   - A guide to chunking
-## Arquitectura del rag
 
-<img width="772" alt="image" src="https://github.com/user-attachments/assets/f325bb5d-c37a-410b-a545-6111c6536ae7" />
