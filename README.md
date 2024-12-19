@@ -6,8 +6,7 @@ Nicolás Oscar Castro Bize
 Carlos Alberto Zurita Olea
 María Ignacia Cofré Poblete
 
-## Instrucciones de esta entrega
-*** Se avanzó en tener una estructura desde un main_app que llamará las funciones de load, chunk, embedding, vector qdrant desde la carpeta src. Para esto:
+## Setup Instructions
 
 1. Clone this repository:
    ```bash
