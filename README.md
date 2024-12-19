@@ -1,4 +1,4 @@
-## Readme: Pipeline RAG, entrega 1
+## Readme: Pipeline RAG, equipo legislación de Brasil
 
 Alumnos:
 
@@ -11,11 +11,12 @@ María Ignacia Cofré Poblete
 ## Instrucciones de esta entrega
 *** Se avanzó en tener una estructura desde un main_app que llamará las funciones de load, chunk, embedding, vector qdrant desde la carpeta src. Para esto:
 
-1) Instalar requirements.txt con las librerias utilizadas
-2) Guardar o asegurar tener archivo biblioteca_de_alimentos.pdf disponible en data/biblioteca-de-alimentos.pdf
-3) Además de las carpetas clasicas de RAG, el proyecto contiene una carpeta carpeta "extras" en el directorio src/extras que contiene funciones de formato para que el retrieval sea más limpio de warnings. Asegurarse de haber descargado ese directorio.
+1) Descargar repositorio desde el main
+2) Instalar requirements.txt con las librerias utilizadas
+3) Guardar o asegurar tener archivo biblioteca_de_alimentos.pdf disponible en data/biblioteca-de-alimentos.pdf
 4) Ejecutar main_app.py para correr pipeline de RAG completo
-5) Privilegiar el uso del portugues en caso de querer modificar la query a consultar, ejemplos:  "Quais são as normas para lactantes no Brasil?", "O que fala acerca do rotulagem?"
+5) Para correr aplicación streamlit ejecutar en consola la sentencia: streamlit run main_app_v3_hybrid.py
+6) En la app se pueden realizar preguntas acerca de la legislación de alimentos en idiomas español, inglés o portugues
 
 # Resultado esperado
 En la ejecución este pipeline recibe una pregunta relacionada como: "Quais são as normas para lactantes no Brasil?", al ejecutar main_app.py el resultado es de la forma:
