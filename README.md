@@ -61,4 +61,6 @@ La app puede recibir preguntas como: "Quais são as normas para lactantes no Bra
 
 <img width="1162" alt="image" src="https://github.com/user-attachments/assets/79307506-dc87-4882-a556-ddca1a71ffc7" />
 
+# Presentación - (favor solicitar acceso)
 
+https://docs.google.com/presentation/d/1VXiXGfu5SmZzo0Pr2oH-nWzJhd1fxSqIT3YZwHA7tVk/edit?usp=sharing
