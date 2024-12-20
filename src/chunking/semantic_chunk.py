@@ -4,7 +4,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
-def generate_semantic_chunk(documents, chunk_size: int = 512,chunk_overlap: int=200) -> list:
+def generate_semantic_chunk(documents, chunk_size: int = 256,chunk_overlap: int=100) -> list:
     """
     Realiza partición semántica en un texto dado utilizando embeddings.
 
@@ -24,7 +24,7 @@ def generate_semantic_chunk(documents, chunk_size: int = 512,chunk_overlap: int=
     text = " ".join(all_texts)  # Concatenar en una sola cadena
 
     # Usar RecursiveCharacterTextSplitter para dividir en chunks iniciales
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=200)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     chunks = text_splitter.split_text(text)
     
     # Generar embeddings para cada chunk
@@ -38,7 +38,7 @@ def generate_semantic_chunk(documents, chunk_size: int = 512,chunk_overlap: int=
     current_chunk = chunks[0]
     
     for i in range(1, len(chunks)):
-        if similarities[i - 1, i] > 0.8:  # Umbral para unir chunks
+        if similarities[i - 1, i] > 0.7:  # Umbral para unir chunks
             current_chunk += " " + chunks[i]
         else:
             semantic_chunks.append(current_chunk)
