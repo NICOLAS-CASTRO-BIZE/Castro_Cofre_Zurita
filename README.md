@@ -62,7 +62,7 @@ La app puede recibir preguntas como: "Quais são as normas para lactantes no Bra
 
 <img width="643" alt="image" src="https://github.com/user-attachments/assets/43cdfa69-2a28-4d9e-b9d6-7a72fcd83caa" />
 
-## Benchmark - Analisis de resultados 
+# Benchmark - Evaluación de resultados
 El proyecto fue testeado utilizando técnicas de RAGAS para evaluación de diferentes medidas de precision en la respuesta comparandose con un RAG básico.
 <img width="1162" alt="image" src="https://github.com/user-attachments/assets/79307506-dc87-4882-a556-ddca1a71ffc7" />
 
