@@ -8,7 +8,7 @@ Nicolás Oscar Castro Bize,
 Carlos Alberto Zurita Olea,
 María Ignacia Cofré Poblete
 
-# Presentación
+## Presentación del proyecto
 https://docs.google.com/presentation/d/1VXiXGfu5SmZzo0Pr2oH-nWzJhd1fxSqIT3YZwHA7tVk/edit?usp=sharing
 
 ## Setup Instructions
