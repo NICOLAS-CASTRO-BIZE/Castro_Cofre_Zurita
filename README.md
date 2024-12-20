@@ -23,12 +23,14 @@ María Ignacia Cofré Poblete
 4. Install requirements
     ```bash
     pip install -r requirements.txt
-5. Save or make sure to have file "food_library.pdf" available in "data/food_library.pdf"
+5. Save or make sure to have file "biblioteca_de_alimentos.pdf" available in:
+   ```bash
+    data/biblioteca_de_alimentos.pdf
     
-6.  for running streamlit app please execute on console
+8.  for running streamlit app please execute on console
     ```bash
     streamlit run main_app_final.py
-7. The app will open in a new tab. Then make questions about brazilian food legislation
+9. The app will open in a new tab. Then make questions about brazilian food legislation
 
 ## Arquitectura de la solución RAG implementada
 
