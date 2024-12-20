@@ -66,24 +66,22 @@ La app puede recibir preguntas como: "Quais são as normas para lactantes no Bra
 El proyecto fue testeado utilizando técnicas de RAGAS para evaluación de diferentes medidas de precision en la respuesta comparandose con un RAG básico.
 <img width="1162" alt="image" src="https://github.com/user-attachments/assets/79307506-dc87-4882-a556-ddca1a71ffc7" />
 
-Evaluación RAG Básico:
+a) Evaluación RAG Básico:
 
 <img width="317" alt="image" src="https://github.com/user-attachments/assets/fc3481d3-2eb0-4f2e-80f9-ae010f50234c" />
 
-Evaluación RAG implementado:
+b) Evaluación RAG implementado:
 
 <img width="297" alt="image" src="https://github.com/user-attachments/assets/70a403e5-a1ad-4a01-ad04-9f95221f8c15" />
 
-Además, visualizamos la distancia cosine dependiendo del tamaño de los chunks, donde se observó que un parametro entre 150 y 200 de chunk size entrega mejores resultados:
+c) Además, visualizamos la distancia cosine dependiendo del tamaño de los chunks, donde se observó que un parametro entre 150 y 200 de chunk size entrega mejores resultados:
 
 <img width="573" alt="image" src="https://github.com/user-attachments/assets/57a41b86-8ddf-44ca-bdd2-57c50ad745c9" />
 
-
-
-Benchmark:
+d) Benchmark:
    ```bash   
       others/Evaluacion_benchmarks_alimentos.ipynb
 
-Evaluacion de chunkings:
+e) Evaluacion de chunkings:
    ```bash   
       others/Sematic_Chunking_Evaluator.ipynb
