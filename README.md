@@ -23,7 +23,7 @@ María Ignacia Cofré Poblete
 4. Install requirements
     ```bash
     pip install -r requirements.txt
-5. Save or make sure to have file "biblioteca_de_alimentos.pdf" available in:
+5. Download and be sure to have file "biblioteca_de_alimentos.pdf" available in:
    ```bash
     data/biblioteca_de_alimentos.pdf
 6.  for running streamlit app please execute on console
