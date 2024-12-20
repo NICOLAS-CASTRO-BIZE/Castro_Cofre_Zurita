@@ -71,6 +71,12 @@ Evaluación RAG implementado:
 
 <img width="297" alt="image" src="https://github.com/user-attachments/assets/70a403e5-a1ad-4a01-ad04-9f95221f8c15" />
 
+Además, visualizamos la distancia cosine dependiendo del tamaño de los chunks, donde se observó que un parametro entre 150 y 200 de chunk size entrega mejores resultados:
+
+<img width="573" alt="image" src="https://github.com/user-attachments/assets/57a41b86-8ddf-44ca-bdd2-57c50ad745c9" />
+
+
+
 Parte de la evaluación queda disponible en el archivo others/Evaluacion_benchmarks_alimentos.ipynb
 
 # Presentación - (favor solicitar acceso)
