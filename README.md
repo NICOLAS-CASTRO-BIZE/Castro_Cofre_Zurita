@@ -83,5 +83,5 @@ d) Benchmark:
       others/Evaluacion_benchmarks_alimentos.ipynb
 
 e) Evaluacion de chunkings:
-   ```bash   
-      others/Sematic_Chunking_Evaluator.ipynb
+      ```bash   
+         others/Sematic_Chunking_Evaluator.ipynb
