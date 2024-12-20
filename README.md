@@ -77,7 +77,10 @@ Además, visualizamos la distancia cosine dependiendo del tamaño de los chunks,
 
 
 
-Parte de la evaluación queda disponible en el archivo others/Evaluacion_benchmarks_alimentos.ipynb
+Parte de las evaluaciones están disponibles en: 
+```bash   
+others/Evaluacion_benchmarks_alimentos.ipynb
+others/Sematic_Chunking_Evaluator.ipynb
 
 # Presentación - (favor solicitar acceso)
 
