@@ -8,6 +8,9 @@ Nicolás Oscar Castro Bize,
 Carlos Alberto Zurita Olea,
 María Ignacia Cofré Poblete
 
+# Presentación
+https://docs.google.com/presentation/d/1VXiXGfu5SmZzo0Pr2oH-nWzJhd1fxSqIT3YZwHA7tVk/edit?usp=sharing
+
 ## Setup Instructions
 
 1. Clone this repository:
@@ -83,6 +86,4 @@ Parte de las evaluaciones están disponibles en:
 ```bash   
       others/Sematic_Chunking_Evaluator.ipynb
 
-## Presentación - (favor solicitar acceso)
 
-https://docs.google.com/presentation/d/1VXiXGfu5SmZzo0Pr2oH-nWzJhd1fxSqIT3YZwHA7tVk/edit?usp=sharing
