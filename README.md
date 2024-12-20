@@ -40,6 +40,8 @@ María Ignacia Cofré Poblete
 
 <img width="772" alt="image" src="https://github.com/user-attachments/assets/f325bb5d-c37a-410b-a545-6111c6536ae7" />
 
+Este RAG incluye diferentes steps clásicos de la arquitectura RAG como load, clean, chunk, embeddings, vector store (hybrid search), llm. Para una mejor interacción dispone de un traductor de idiomas y un rerank que permiten tener una respuesta certera y de calidad.
+
 # Consideraciones / español
 
 1) Descargar  o clonar repositorio desde el main
@@ -58,8 +60,12 @@ La app puede recibir preguntas como: "Quais são as normas para lactantes no Bra
 <img width="643" alt="image" src="https://github.com/user-attachments/assets/43cdfa69-2a28-4d9e-b9d6-7a72fcd83caa" />
 
 # Benchmark - Analisis de resultados 
-
+El proyecto fue testeado utilizando técnicas de RAGAS para evaluación de diferentes medidas de precision en la respuesta comparandose con un RAG básico.
 <img width="1162" alt="image" src="https://github.com/user-attachments/assets/79307506-dc87-4882-a556-ddca1a71ffc7" />
+Evaluación RAG Básico:
+<img width="317" alt="image" src="https://github.com/user-attachments/assets/fc3481d3-2eb0-4f2e-80f9-ae010f50234c" />
+Evaluación RAG implementado:
+<img width="297" alt="image" src="https://github.com/user-attachments/assets/70a403e5-a1ad-4a01-ad04-9f95221f8c15" />
 
 # Presentación - (favor solicitar acceso)
 
