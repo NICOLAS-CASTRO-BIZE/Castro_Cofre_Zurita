@@ -24,7 +24,8 @@ María Ignacia Cofré Poblete
     ```bash
     pip install -r requirements.txt
 5.  for running streamlit app please execute on console
-    ```streamlit run main_app_final.py
+    ```bash
+    streamlit run main_app_final.py
 6. The app will open in a new tab. Then make questions about brazilian food legislation
 
 ## Arquitectura de la solución RAG implementada
