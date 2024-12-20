@@ -50,6 +50,11 @@ Arrendamento Residencial, institui o arrendamento residencial com opção de com
 11.265, de 3 de janeiro de 2006, que regulamenta a comercialização de alimentos para lactentes e 
 crianças de primeira infância e a de produtos de puericultura correlatos, e dá outras providências. 
 
+# Benchmark - Analisis de resultados 
+
+<img width="1162" alt="image" src="https://github.com/user-attachments/assets/79307506-dc87-4882-a556-ddca1a71ffc7" />
+
+
 ***Readme anterior*******
 Building an End-to-End Retrieval-Augmented Generation System
 
