@@ -46,16 +46,10 @@ María Ignacia Cofré Poblete
 
 
 # Resultado esperado
-En la ejecución este pipeline recibe una pregunta relacionada como: "Quais são as normas para lactantes no Brasil?", al ejecutar main_app.py el resultado es de la forma:
 
-Result 1:
-page_content='Lei 11.265/2006 – Regulamenta a comercialização de alimentos para lactentes e crianças de primeira infância 
-e a de produtos de puericultura correlatos. 
- Alterada por: 
-Lei 11.474/2007  – Altera a Lei no 10.188, de 12 de fevereiro de 2001, que cria o Programa de 
-Arrendamento Residencial, institui o arrendamento residencial com opção de compra, e a Lei no 
-11.265, de 3 de janeiro de 2006, que regulamenta a comercialização de alimentos para lactentes e 
-crianças de primeira infância e a de produtos de puericultura correlatos, e dá outras providências. 
+La app puede recibir preguntas como: "Quais são as normas para lactantes no Brasil?", "¿Cual es la norma más importante para el rotulado de alimentos?". La aplicación procesará a traves de un proceso RAG la solicitud y luego de unos segundo entregará una respuesta enriquecida con inteligencia artificial y los documentos más relevantes asociados. En la imagen a continuación se despliega un ejemplo de ello:
+
+<img width="643" alt="image" src="https://github.com/user-attachments/assets/43cdfa69-2a28-4d9e-b9d6-7a72fcd83caa" />
 
 # Benchmark - Analisis de resultados 
 
