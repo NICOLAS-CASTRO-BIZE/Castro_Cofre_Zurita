@@ -78,10 +78,9 @@ c) Además, visualizamos la distancia cosine dependiendo del tamaño de los chun
 
 <img width="573" alt="image" src="https://github.com/user-attachments/assets/57a41b86-8ddf-44ca-bdd2-57c50ad745c9" />
 
-d) Benchmark:
-   ```bash   
-   others/Evaluacion_benchmarks_alimentos.ipynb
-
-e) Evaluacion de chunkings:
-      ```bash   
-      others/Sematic_Chunking_Evaluator.ipynb
+d) Jupyter con analisis
+   ```bash
+    # Benchmark ragas
+    others/Evaluacion_benchmarks_alimentos.ipynb
+    # Analisis de chunks
+    others/Sematic_Chunking_Evaluator.ipynb
