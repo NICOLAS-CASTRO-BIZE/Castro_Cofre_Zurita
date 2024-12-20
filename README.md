@@ -71,6 +71,8 @@ Evaluación RAG implementado:
 
 <img width="297" alt="image" src="https://github.com/user-attachments/assets/70a403e5-a1ad-4a01-ad04-9f95221f8c15" />
 
+Parte de la evaluación queda disponible en el archivo others/Evaluacion_benchmarks_alimentos.ipynb
+
 # Presentación - (favor solicitar acceso)
 
 https://docs.google.com/presentation/d/1VXiXGfu5SmZzo0Pr2oH-nWzJhd1fxSqIT3YZwHA7tVk/edit?usp=sharing
