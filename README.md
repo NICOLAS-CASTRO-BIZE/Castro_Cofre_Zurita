@@ -80,8 +80,8 @@ c) Además, visualizamos la distancia cosine dependiendo del tamaño de los chun
 
 d) Benchmark:
    ```bash   
-      others/Evaluacion_benchmarks_alimentos.ipynb
+   others/Evaluacion_benchmarks_alimentos.ipynb
 
 e) Evaluacion de chunkings:
       ```bash   
-         others/Sematic_Chunking_Evaluator.ipynb
+      others/Sematic_Chunking_Evaluator.ipynb
