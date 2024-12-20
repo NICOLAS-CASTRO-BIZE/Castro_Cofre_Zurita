@@ -2,8 +2,8 @@
 
 Alumnos:
 
-Nicolás Oscar Castro Bize
-Carlos Alberto Zurita Olea
+Nicolás Oscar Castro Bize,
+Carlos Alberto Zurita Olea,
 María Ignacia Cofré Poblete
 
 ## Setup Instructions
